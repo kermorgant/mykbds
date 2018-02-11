@@ -14,6 +14,17 @@ When in boot mode, dmesg should output something like
 [ 2856.205286] usb 1-7: SerialNumber: 1.0.
 
 Last change option : short pin 13 (reset) with GND (23 was easy to reach)
+  ____________
+ |o           |
+ |            |
+ |  ATM32U4   |
+ |            |
+ |            |
+ |____________|---> first here is GND (23)
+  ||||||||||||
+   |
+   second here RESET (13)
+
 
 * reprogram the keyboard
 
